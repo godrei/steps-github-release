@@ -65,7 +65,7 @@ workflows:
         - commit: $BITRISE_GIT_COMMIT
         - tag: $BITRISE_STEP_VERSION
         - name: $BITRISE_STEP_VERSION
-        - body: $BITRSE_CHANGELOG
+        - body: $BITRISE_CHANGELOG
         - draft: "yes"
     - script:
         title: Share this step
